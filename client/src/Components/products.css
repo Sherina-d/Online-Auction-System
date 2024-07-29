@@ -1,0 +1,8 @@
+body{
+    background-color:#4f5152;
+}
+.product-image {
+    height: 250px; /* Adjust the height as needed */
+    background-size: cover;
+    
+}

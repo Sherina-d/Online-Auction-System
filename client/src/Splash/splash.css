@@ -1,0 +1,23 @@
+/* src/App.css */
+.splash-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: rgb(0, 0, 0);
+    text-align: center;
+    padding: 20px;
+  }
+  
+  .animated-logo {
+    width: 100%; /* Increase the width */
+    height: 100vh; /* Automatically adjust height */
+    transition: transform 0.3s ease; /* Add transition for smooth scaling */
+    border: 5px solid gray;
+    border-radius: 80px;
+  }
+  
+  .animated-logo:hover {
+    transform: scale(1.2); /* Scale the logo on hover */
+  }
+  
